@@ -39,7 +39,7 @@ const SpaceshipsMap = (): JSX.Element => {
 								}}
 								onMouseLeave={(e) => {
 									const target = e.currentTarget as HTMLElement;
-									target.style.background = "rgba(200, 200, 200, 0.8)";
+									target.style.background = "rgba(255, 255, 255, 0.8)";
 									target.style.transform = "scale(1)";
 									target.classList.add(
 										"drop-shadow-[0_0_5px_rgba(255,255,255,1)]"

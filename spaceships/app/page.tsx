@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
 	}, []);
 
 	const Header = (): JSX.Element => (
-		<header className=' fixed z-10 bg-[#121012] w-full '>
+		<header className=' absolute z-10 bg-[#121012] w-full '>
 			<nav className='flex sm:h-14 justify-center items-center gap-4 md:text-lg'>
 				<Link href=''>
 					<Image
