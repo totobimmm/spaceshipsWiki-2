@@ -65,5 +65,5 @@ body {
 }
 
 .pulse {
-  animation: pulse 1s infinite;
+  animation: pulse .5s infinite;
 }
