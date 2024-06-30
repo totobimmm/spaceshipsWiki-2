@@ -57,19 +57,19 @@ export default function Home(): JSX.Element {
 			<SecNavLinkMap
 				className={`${
 					showCross ? "translate-y-0" : "-translate-y-full"
-				} sm:hidden`}
+				} sm:hidden z-10`}
 				id='secNav'
 			/>
 			{!showCross ? (
 				<FaBars
 					size={40}
-					className=' sm:hidden absolute top-3 right-3 text-white '
+					className=' sm:hidden fixed top-3 right-3 text-white z-20 '
 					onClick={() => setShowCross(true)}
 				/>
 			) : (
 				<RxCross1
 					size={40}
-					className=' sm:hidden absolute top-3 right-3 text-white '
+					className=' sm:hidden fixed top-3 right-3 text-white z-20 '
 					onClick={() => setShowCross(false)}
 				/>
 			)}
