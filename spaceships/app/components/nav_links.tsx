@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-const NAV_LINKS: { href: string; label: string }[] = [
+export const NAV_LINKS: { href: string; label?: string; icon?: string }[] = [
+	{
+		href: "https://www.cosmikbattle.com/",
+		label: "HOME",
+		icon: "https://cdn.prod.website-files.com/659d7bdc74363cd63d1a332c/65a79b3795b03a80f4296400_icon-png-cropped-p-500.png",
+	},
 	{ href: "https://www.cosmikbattle.com/game", label: "THE GAME" },
 	{ href: "https://www.cosmikbattle.com/news", label: "NEWS" },
 	{

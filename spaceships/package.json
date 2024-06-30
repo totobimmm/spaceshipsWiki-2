@@ -7,9 +7,11 @@
 		"d": "next dev",
 		"b": "next build",
 		"s": "next start",
+		"b-s": "next build && next start",
 		"l": "next lint"
 	},
 	"dependencies": {
+		"framer-motion": "^11.2.12",
 		"next": "14.2.4",
 		"react": "^18",
 		"react-dom": "^18",
