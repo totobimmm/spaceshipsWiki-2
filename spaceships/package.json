@@ -4,10 +4,10 @@
 	"type": "module",
 	"private": true,
 	"scripts": {
-		"d": "next dev",
+		"d": "next dev -p 4987",
 		"b": "next build",
-		"s": "next start",
-		"b-s": "next build && next start",
+		"s": "next start -p 4987",
+		"b-s": "next build && next start -p 4987",
 		"l": "next lint"
 	},
 	"dependencies": {
