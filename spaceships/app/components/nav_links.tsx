@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export const NAV_LINKS: { href: string; label?: string; icon?: string }[] = [
 	{
-		href: "https://theoddelor.eu/my-pages",
+		href: "https://theoddelor.eu",
 		label: "HOME",
 		icon: "https://cdn.prod.website-files.com/659d7bdc74363cd63d1a332c/65a79b3795b03a80f4296400_icon-png-cropped-p-500.png",
 	},
